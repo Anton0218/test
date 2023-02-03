@@ -64,7 +64,7 @@ function func4($num) {
   }
 }
 
-//5 задание (7 минут)
+//5 задание (15 минут)
 function func5(array $arr1, array $arr2) {
   $res = [];
   $count1 = array_count_values($arr1);
@@ -79,20 +79,6 @@ function func5(array $arr1, array $arr2) {
   }
   return $res;
 }
-
-//6 задание 
-function func6(int $num) {
-  
-  function console_log($data){ // функция вывода в консоль с php
-    if(is_array($data) || is_object($data)){
-    echo("<script>console.log('php_array: ".json_encode($data)."');</script>");
-  } else {
-    echo("<script>console.log('php_string: ".$data."');</script>");
-  }
-  }
-}
-
-
 ?>
 <script src="func6.js"></script>
 
